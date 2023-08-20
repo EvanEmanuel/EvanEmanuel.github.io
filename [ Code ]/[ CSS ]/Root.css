@@ -1,0 +1,21 @@
+:root
+{
+    --background-color: #340505;
+    --show-real-background-color: #464137;
+    --about-me-background-color: rgba(239, 237, 232, 0);
+
+    --main-color: #491111;
+    --dark-main-color: #b08108;
+
+    --accent-color: #230000;
+    --dark-accent-color: #856209;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    min-height: 100%;
+}

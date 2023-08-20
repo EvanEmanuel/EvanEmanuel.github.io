@@ -1,0 +1,51 @@
+#show-reel_container
+{
+    position: relative;
+    padding: 130px 0 30px 0;
+    margin: 0;
+
+    background-color: var(--show-real-background-color);
+    width: 100%;
+
+    overflow: hidden;
+}
+
+#showreel_background
+{
+    width: 120%;
+    height: 120%;
+
+    position: absolute;
+    display: block;
+
+    top:0;
+
+    margin-left: -10%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    filter: brightness(15%) blur(00px);
+}
+
+#show-reel_embed_video
+{
+    position: relative;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 10px;
+
+    max-width: 1264px;
+    width: 50vw;
+
+    max-height: 711px;
+    height: calc(50vw * (711 / 1264));
+
+    background-color: black;
+    filter: drop-shadow(0 0 10px black);
+
+}

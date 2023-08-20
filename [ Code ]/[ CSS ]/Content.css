@@ -1,0 +1,33 @@
+#content_container
+{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    width: 85%;
+    min-height: 100vh;
+    box-shadow: 0 0 10px black;
+
+    overflow: hidden;
+}
+
+#content_container_background
+{
+    width: 120%;
+    height: 120%;
+
+    position: absolute;
+    display: block;
+
+    top:0;
+
+    margin-left: -10%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    filter: brightness(100%) opacity(50%);
+}
