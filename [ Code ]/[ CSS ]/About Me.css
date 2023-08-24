@@ -12,6 +12,11 @@
     background-color: var(--about-me-background-color);
 }
 
+#about-me-content
+{
+    padding: 0px 100px 0px 100px;
+}
+
 #about-me h1
 {
     text-align: center;
